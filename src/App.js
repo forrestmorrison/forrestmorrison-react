@@ -3,7 +3,7 @@
 function App() {
   return (
     <div>
-      Hi
+      <h1 className="text-2xl font-bold">Forrest Morrison</h1>
     </div>
   );
 }
