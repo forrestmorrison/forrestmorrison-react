@@ -43,28 +43,28 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="flex fixed flex-col top-[35%] left-0">
         <ul>
-        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-            <a className="flex justify-between items-center w-full text-[#119f05] hover:text-[#5dbb10]" href="https://www.github.com/forrestmorrison">
+        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+            <a className="flex justify-between items-center w-full text-[white]" href="https://www.github.com/forrestmorrison">
               Github <FaGithub size={30}/>
             </a>
           </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-            <a className="flex justify-between items-center w-full text-[#119f05] hover:text-[#5dbb10]" href="https://www.linkedin.com/in/forrestmorrison">
+          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+            <a className="flex justify-between items-center w-full text-[white]" href="https://www.linkedin.com/in/forrestmorrison">
               LinkedIn <FaLinkedin size={30}/>
             </a>
           </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-            <a className="flex justify-between items-center w-full text-[#119f05] hover:text-[#5dbb10]" href="https://www.instagram.com/4restmorrison">
+          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+            <a className="flex justify-between items-center w-full text-[white]" href="https://www.instagram.com/4restmorrison">
               Instagram <FaInstagram size={30}/>
             </a>
           </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-            <a className="flex justify-between items-center w-full text-[#119f05] hover:text-[#5dbb10]" href="https://www.twitter.com/4restmorrison">
+          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+            <a className="flex justify-between items-center w-full text-[white]" href="https://www.twitter.com/4restmorrison">
               Twitter <FaTwitter size={30}/>
             </a>
           </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-            <a className="flex justify-between items-center w-full text-[#119f05] hover:text-[#5dbb10]" href="https://www.youtube.com/@4restmorrison">
+          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+            <a className="flex justify-between items-center w-full text-[white]" href="https://www.youtube.com/@4restmorrison">
               YouTube <FaYoutube size={30}/>
             </a>
           </li>
