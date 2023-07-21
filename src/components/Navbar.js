@@ -32,7 +32,7 @@ const Navbar = () => {
 
       {/* mobile menu */}
 
-      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#fff] flex flex-col justify-center items-center"}>
+      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center"}>
         <li className="py-6 text-2xl text-[#119f05] hover:text-[#5dbb10]">About</li>
         <li className="py-6 text-2xl text-[#119f05] hover:text-[#5dbb10]">Home</li>
         <li className="py-6 text-2xl text-[#119f05] hover:text-[#5dbb10]">Skills</li>
@@ -44,27 +44,27 @@ const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-[white]" href="https://www.github.com/forrestmorrison">
+            <a className="flex justify-between items-center w-full text-white" href="https://www.github.com/forrestmorrison">
               Github <FaGithub size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-[white]" href="https://www.linkedin.com/in/forrestmorrison">
+            <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison">
               LinkedIn <FaLinkedin size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-[white]" href="https://www.instagram.com/4restmorrison">
+            <a className="flex justify-between items-center w-full text-white" href="https://www.instagram.com/4restmorrison">
               Instagram <FaInstagram size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-[white]" href="https://www.twitter.com/4restmorrison">
+            <a className="flex justify-between items-center w-full text-white" href="https://www.twitter.com/4restmorrison">
               Twitter <FaTwitter size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-[white]" href="https://www.youtube.com/@4restmorrison">
+            <a className="flex justify-between items-center w-full text-white" href="https://www.youtube.com/@4restmorrison">
               YouTube <FaYoutube size={30}/>
             </a>
           </li>
