@@ -10,7 +10,6 @@
     }
     li {
         @apply px-4;
-        @apply text-[#119f05];
         @apply font-bold;
         @apply cursor-pointer;
     }
