@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/forrestmorrison-react/static/css/main.83d98c21.css",
-    "main.js": "/forrestmorrison-react/static/js/main.d464255a.js",
+    "main.js": "/forrestmorrison-react/static/js/main.bcc74af6.js",
     "static/media/bmxparks.jpg": "/forrestmorrison-react/static/media/bmxparks.98bc2d37b62a771c68b8.jpg",
     "static/media/bitcoinbudget.jpg": "/forrestmorrison-react/static/media/bitcoinbudget.884c5d662050f712198c.jpg",
     "static/media/myblog.jpg": "/forrestmorrison-react/static/media/myblog.8d60a090321dc24ff876.jpg",
     "static/media/react.png": "/forrestmorrison-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/forrestmorrison-react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/forrest-name-green.png": "/forrestmorrison-react/static/media/forrest-name-green.82637a06eef74c09ba7b.png",
-    "static/media/aws.png": "/forrestmorrison-react/static/media/aws.53a8f184a03fad1eb552.png",
     "static/media/googlecloud.png": "/forrestmorrison-react/static/media/googlecloud.fd4e30e7824c2ad76ef2.png",
     "static/media/4rest-logo-color.png": "/forrestmorrison-react/static/media/4rest-logo-color.f559f63dc2aaf19e53ce.png",
     "static/media/mysql.png": "/forrestmorrison-react/static/media/mysql.89049adf303f2e340887.png",
@@ -16,15 +15,13 @@
     "static/media/bootstrap.png": "/forrestmorrison-react/static/media/bootstrap.ff2a814856e9ced55ed4.png",
     "static/media/tailwind.png": "/forrestmorrison-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/forrestmorrison-react/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/firebase.png": "/forrestmorrison-react/static/media/firebase.209703cedf1b1a96bc52.png",
-    "static/media/mongodb.png": "/forrestmorrison-react/static/media/mongodb.01504bcc6ad6daecfbdd.png",
     "static/media/javascript.png": "/forrestmorrison-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/forrestmorrison-react/index.html",
     "main.83d98c21.css.map": "/forrestmorrison-react/static/css/main.83d98c21.css.map",
-    "main.d464255a.js.map": "/forrestmorrison-react/static/js/main.d464255a.js.map"
+    "main.bcc74af6.js.map": "/forrestmorrison-react/static/js/main.bcc74af6.js.map"
   },
   "entrypoints": [
     "static/css/main.83d98c21.css",
-    "static/js/main.d464255a.js"
+    "static/js/main.bcc74af6.js"
   ]
 }
