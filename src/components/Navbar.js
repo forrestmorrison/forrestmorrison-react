@@ -1,8 +1,6 @@
 import { useState } from "react"
 import Logo from "../assets/4rest-logo-color.png"
 import { FaBars, FaTimes, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
-import { HiOutlineMail } from "react-icons/hi"
-import { BsFillPersonLinesFill } from "react-icons/bs"
 
 const Navbar = () => {
 
