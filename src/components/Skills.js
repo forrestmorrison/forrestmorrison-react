@@ -62,28 +62,12 @@ const Skills = () => {
                     <p className="mb-4">Node JS</p>
                 </div>
                 <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
-                    <img className="w-20 mx-auto py-4" src={ExpressJS} alt="Express icon" />
-                    <p className="mb-4">Express JS</p>
-                </div>
-                <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
                     <img className="w-20 mx-auto py-4" src={MySQL} alt="MySQL icon" />
                     <p className="mb-4">MySQL</p>
                 </div>
                 <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
                     <img className="w-20 mx-auto py-4" src={GoogleCloud} alt="Google Cloud icon" />
                     <p className="mb-4">Google Cloud</p>
-                </div>
-                <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
-                    <img className="w-20 mx-auto py-4" src={AWS} alt="AWS icon" />
-                    <p className="mb-4">AWS</p>
-                </div>
-                <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
-                    <img className="w-20 mx-auto py-4" src={MongoDB} alt="MongoDB icon" />
-                    <p className="mb-4">MongoDB</p>
-                </div>
-                <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
-                    <img className="w-20 mx-auto py-4" src={Firebase} alt="Firebase icon" />
-                    <p className="mb-4">Firebase</p>
                 </div>
                 <div className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500">
                     <img className="w-20 mx-auto py-4" src={Auth0} alt="Auth0 icon" />
