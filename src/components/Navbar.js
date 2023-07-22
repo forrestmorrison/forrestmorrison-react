@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} offset={-70} duration={500}>
             Skills
           </Link>
         </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-2xl text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="skills" onClick={handleClick} smooth={true} duration={500}>
+          <Link to="skills" onClick={handleClick} smooth={true} offset={-70} duration={500}>
             Skills
           </Link>
         </li>
