@@ -1,5 +1,5 @@
-import React from 'react'
 import { HiArrowNarrowRight } from "react-icons/hi"
+import { Link } from "react-scroll"
 import ForrestName from "../assets/forrest-name-green.png"
 
 const Home = () => {
