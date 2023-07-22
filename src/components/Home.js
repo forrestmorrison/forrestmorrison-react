@@ -7,7 +7,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen">
         
         {/* Container */}
-        <div className="max-w-[700px] mx-auto p-8 flex flex-col justify-center h-full">
+        <div className="max-w-[900px] mx-auto p-8 flex flex-col justify-center h-full">
             <p className="pb-2">Welcome to the official website of</p>
             <img src={ForrestName} alt="Forrest name" />
             <h2 className="py-4 text-2xl sm:text-4xl">Full-Stack Developer</h2>
