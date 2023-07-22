@@ -12,12 +12,14 @@ const Home = () => {
             <img src={ForrestName} alt="Forrest name" />
             <h2 className="py-4 text-2xl sm:text-4xl">Full-Stack Developer</h2>
             <div>
-                <button className="px-6 py-3 my-2 flex items-center group text-white bg-[#119f05] hover:bg-[#5dbb10] duration-300">
-                    View Work
-                    <span className="group-hover:rotate-90 duration-300">
-                        <HiArrowNarrowRight className="ml-4" />
-                    </span>
-                </button>
+                <Link to="work" smooth={true} duration={500}>
+                    <button className="px-6 py-3 my-2 flex items-center group text-white bg-[#119f05] hover:bg-[#5dbb10] duration-300">
+                        View Work
+                        <span className="group-hover:rotate-90 duration-300">
+                            <HiArrowNarrowRight className="ml-4" />
+                        </span>
+                    </button>
+                </Link>
             </div>
         </div>
 
