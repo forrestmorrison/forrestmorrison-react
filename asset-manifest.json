@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/forrestmorrison-react/static/css/main.83d98c21.css",
-    "main.js": "/forrestmorrison-react/static/js/main.bcc74af6.js",
+    "main.js": "/forrestmorrison-react/static/js/main.cb415e8c.js",
     "static/media/bmxparks.jpg": "/forrestmorrison-react/static/media/bmxparks.98bc2d37b62a771c68b8.jpg",
     "static/media/bitcoinbudget.jpg": "/forrestmorrison-react/static/media/bitcoinbudget.884c5d662050f712198c.jpg",
     "static/media/myblog.jpg": "/forrestmorrison-react/static/media/myblog.8d60a090321dc24ff876.jpg",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/forrestmorrison-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/forrestmorrison-react/index.html",
     "main.83d98c21.css.map": "/forrestmorrison-react/static/css/main.83d98c21.css.map",
-    "main.bcc74af6.js.map": "/forrestmorrison-react/static/js/main.bcc74af6.js.map"
+    "main.cb415e8c.js.map": "/forrestmorrison-react/static/js/main.cb415e8c.js.map"
   },
   "entrypoints": [
     "static/css/main.83d98c21.css",
-    "static/js/main.bcc74af6.js"
+    "static/js/main.cb415e8c.js"
   ]
 }
