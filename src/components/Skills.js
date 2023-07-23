@@ -7,12 +7,8 @@ import Tailwind from "../assets/tailwind.png"
 import MUI from "../assets/mui.png"
 import Git from "../assets/git.png"
 import NodeJS from "../assets/node.png"
-import ExpressJS from "../assets/expressjs.png"
 import MySQL from "../assets/mysql.png"
 import GoogleCloud from "../assets/googlecloud.png"
-import AWS from "../assets/aws.png"
-import Firebase from "../assets/firebase.png"
-import MongoDB from "../assets/mongodb.png"
 import Auth0 from "../assets/auth0.png"
 
 
