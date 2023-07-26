@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/forrestmorrison-react/static/css/main.83d98c21.css",
-    "main.js": "/forrestmorrison-react/static/js/main.cb415e8c.js",
+    "main.css": "/forrestmorrison-react/static/css/main.87b3ea95.css",
+    "main.js": "/forrestmorrison-react/static/js/main.8a365c87.js",
     "static/media/bmxparks.jpg": "/forrestmorrison-react/static/media/bmxparks.98bc2d37b62a771c68b8.jpg",
     "static/media/bitcoinbudget.jpg": "/forrestmorrison-react/static/media/bitcoinbudget.884c5d662050f712198c.jpg",
     "static/media/myblog.jpg": "/forrestmorrison-react/static/media/myblog.8d60a090321dc24ff876.jpg",
     "static/media/react.png": "/forrestmorrison-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/forrestmorrison-react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/forrest-name-green.png": "/forrestmorrison-react/static/media/forrest-name-green.82637a06eef74c09ba7b.png",
+    "static/media/forrest-name-white.png": "/forrestmorrison-react/static/media/forrest-name-white.12725aa4312e9467de9b.png",
     "static/media/googlecloud.png": "/forrestmorrison-react/static/media/googlecloud.fd4e30e7824c2ad76ef2.png",
     "static/media/4rest-logo-color.png": "/forrestmorrison-react/static/media/4rest-logo-color.f559f63dc2aaf19e53ce.png",
     "static/media/mysql.png": "/forrestmorrison-react/static/media/mysql.89049adf303f2e340887.png",
@@ -17,11 +18,11 @@
     "static/media/css.png": "/forrestmorrison-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/forrestmorrison-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/forrestmorrison-react/index.html",
-    "main.83d98c21.css.map": "/forrestmorrison-react/static/css/main.83d98c21.css.map",
-    "main.cb415e8c.js.map": "/forrestmorrison-react/static/js/main.cb415e8c.js.map"
+    "main.87b3ea95.css.map": "/forrestmorrison-react/static/css/main.87b3ea95.css.map",
+    "main.8a365c87.js.map": "/forrestmorrison-react/static/js/main.8a365c87.js.map"
   },
   "entrypoints": [
-    "static/css/main.83d98c21.css",
-    "static/js/main.cb415e8c.js"
+    "static/css/main.87b3ea95.css",
+    "static/js/main.8a365c87.js"
   ]
 }
