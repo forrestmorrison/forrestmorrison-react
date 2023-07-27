@@ -41,7 +41,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} offset={-50} duration={500}>
             Contact
           </Link>
         </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-2xl text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="contact" onClick={handleClick} smooth={true} duration={500}>
+          <Link to="contact" onClick={handleClick} smooth={true} offset={-40} duration={500}>
             Contact
           </Link>
         </li>
@@ -94,11 +94,6 @@ const Navbar = () => {
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
             <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison">
               LinkedIn <FaLinkedin size={30}/>
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-white" href="https://www.instagram.com/4restmorrison">
-              Instagram <FaInstagram size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">

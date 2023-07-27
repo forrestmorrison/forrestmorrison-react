@@ -14,7 +14,7 @@ import Auth0 from "../assets/auth0.png"
 
 const Skills = () => {  
   return (
-    <div name="skills">
+    <div name="skills" className="mb-16">
         <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
             <div className="px-2">
                 <p className="text-4xl font-bold inline border-b-4 border-[#119f05]">Skills</p>

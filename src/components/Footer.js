@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-i
 
 const Footer = () => {
   return (
-    <div className='w-full h-[160px] sm:h-[100px] flex flex-col sm:flex-row justify-evenly sm:justify-between items-center px-4 mt-2 bg-[#119f05] text-white'>
+    <div className='w-full h-[160px] sm:h-[80px] flex flex-col sm:flex-row justify-evenly sm:justify-between items-center px-4 mt-2 bg-[#119f05] text-white'>
         <div className="m-2 text-center sm:text-right">
             <img src={ForrestName} alt="Forrest name" className="h-[30px] mb-2" />
             <p>copyright ©2023</p>
@@ -18,11 +18,6 @@ const Footer = () => {
                 <li className="hover:scale-110 duration-500">
                     <a className="text-white" href="https://www.linkedin.com/in/forrestmorrison">
                         <FaLinkedin size={30}/>
-                    </a>
-                </li>
-                <li className="hover:scale-110 duration-500">
-                    <a className="text-white" href="https://www.instagram.com/4restmorrison">
-                        <FaInstagram size={30}/>
                     </a>
                 </li>
                 <li className="hover:scale-110 duration-500">
