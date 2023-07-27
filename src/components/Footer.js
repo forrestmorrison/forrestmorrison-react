@@ -1,5 +1,5 @@
 import ForrestName from "../assets/forrest-name-white.png"
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
   return (

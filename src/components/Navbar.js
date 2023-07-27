@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Logo from "../assets/4rest-logo-color.png"
-import { FaBars, FaTimes, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
 import { Link } from "react-scroll"
 
 const Navbar = () => {
