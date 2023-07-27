@@ -68,7 +68,7 @@ const Work = () => {
                 </div>
             </div>
             <div className="pb-8 px-2">
-                <p className="my-4 py-4"><a href="https://www.linkedin.com/in/forrestmorrison" className="font-bold text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">CLICK HERE</a> to view my LinkedIn profile</p>
+                <p className="my-4 py-4"><a href="https://www.linkedin.com/in/forrestmorrison" className="font-bold text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">CLICK HERE</a> to view my resume on LinkedIn</p>
             </div>
         </div>
     </div>
