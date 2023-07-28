@@ -23,7 +23,7 @@ const Work = () => {
                                 <a href="/">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/forrestmorrison/bitcoinbudget">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
                                 </a>
                             </div>
@@ -42,7 +42,7 @@ const Work = () => {
                                 <a href="/">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/forrestmorrison/bmxparks-app">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
                                 </a>
                             </div>
@@ -59,7 +59,7 @@ const Work = () => {
                                 <a href="/">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/forrestmorrison/my-blog">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
                                 </a>
                             </div>
