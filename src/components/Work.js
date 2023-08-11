@@ -23,7 +23,7 @@ const Work = () => {
                                 <a href="/">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
                                 </a>
-                                <a href="https://github.com/forrestmorrison/bitcoinbudget">
+                                <a href="https://github.com/forrestmorrison/bitcoin-budget">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
                                 </a>
                             </div>
