@@ -1,4 +1,4 @@
-import BitcoinBudget from "../assets/bitcoinbudget.jpg"
+import BitcoinBudget from "../assets/bitcoin-budget.jpg"
 import BMXParks from "../assets/bmxparks.jpg"
 import MyBlog from "../assets/myblog.jpg"
 
@@ -12,16 +12,15 @@ const Work = () => {
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <div style={{ backgroundImage: `url(${BitcoinBudget})`}}>
-                    <div className="shadow-lg shadow-gray-300 group container flex justify-center items-center text-center mx-auto content-div">
-                        
+                    <div className="shadow-lg shadow-gray-300 group container flex justify-center items-center text-center mx-auto content-div">         
                         {/* Hover Effects */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
                                 Bitcoin Budget
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
+                                <a href="https://bitcoin-budget-c75dd27ec5a4.herokuapp.com/">
+                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
                                 </a>
                                 <a href="https://github.com/forrestmorrison/bitcoin-budget">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
@@ -40,7 +39,7 @@ const Work = () => {
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
+                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
                                 </a>
                                 <a href="https://github.com/forrestmorrison/bmxparks-app">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
@@ -57,7 +56,7 @@ const Work = () => {
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Demo</button>
+                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
                                 </a>
                                 <a href="https://github.com/forrestmorrison/my-blog">
                                     <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
