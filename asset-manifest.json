@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.74f677d6.css",
-    "main.js": "/static/js/main.0300fb5a.js",
+    "main.js": "/static/js/main.5d69df74.js",
     "static/media/bmxparks.jpg": "/static/media/bmxparks.dabf76c1a0601b49ae2d.jpg",
     "static/media/myblog.jpg": "/static/media/myblog.7b62c05cfd6f54adb573.jpg",
-    "static/media/bitcoinbudget.jpg": "/static/media/bitcoinbudget.0bfa33e98099d4ca1a39.jpg",
+    "static/media/bitcoin-budget.jpg": "/static/media/bitcoin-budget.9ced08c266587d6b842a.jpg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/forrest-name-green.png": "/static/media/forrest-name-green.82637a06eef74c09ba7b.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.74f677d6.css.map": "/static/css/main.74f677d6.css.map",
-    "main.0300fb5a.js.map": "/static/js/main.0300fb5a.js.map"
+    "main.5d69df74.js.map": "/static/js/main.5d69df74.js.map"
   },
   "entrypoints": [
     "static/css/main.74f677d6.css",
-    "static/js/main.0300fb5a.js"
+    "static/js/main.5d69df74.js"
   ]
 }
