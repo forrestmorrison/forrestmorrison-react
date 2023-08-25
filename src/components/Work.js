@@ -1,6 +1,5 @@
-import BitcoinBudget from "../assets/bitcoin-budget.jpg"
-import BMXParks from "../assets/bmxparks.jpg"
-import MyBlog from "../assets/myblog.jpg"
+import BitcoinBudget from "../assets/bitcoin-budget-logo.png"
+import MyBlog from "../assets/my-blog-logo.png"
 
 const Work = () => {
   return (
@@ -10,59 +9,27 @@ const Work = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-[#119f05]">Work</p>
                 <p className="py-4">These are the apps I have built:</p>
             </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <div style={{ backgroundImage: `url(${BitcoinBudget})`}}>
-                    <div className="shadow-lg shadow-gray-300 group container flex justify-center items-center text-center mx-auto content-div">         
-                        {/* Hover Effects */}
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-white tracking-wider">
-                                Bitcoin Budget
-                            </span>
-                            <div className="pt-8 text-center">
-                                <a href="https://bitcoin-budget-c75dd27ec5a4.herokuapp.com/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
-                                </a>
-                                <a href="https://github.com/forrestmorrison/bitcoin-budget">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
-                                </a>
-                            </div>
-                        </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+                <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">         
+                    <img src={BitcoinBudget} alt="" className="w-11/12 mt-12"/>
+                    <div className="pt-8 mb-4 text-center">
+                        <a href="https://bitcoin-budget-c75dd27ec5a4.herokuapp.com/">
+                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">App</button>
+                        </a>
+                        <a href="https://github.com/forrestmorrison/bitcoin-budget">
+                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
+                        </a>
                     </div>
                 </div>
-                <div style={{ backgroundImage: `url(${BMXParks})`}}>
-                    <div className="shadow-lg shadow-gray-300 group container flex justify-center items-center text-center mx-auto content-div">
-                        
-                        {/* Hover Effects */}
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-white tracking-wider">
-                                BMX Parks
-                            </span>
-                            <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
-                                </a>
-                                <a href="https://github.com/forrestmorrison/bmxparks-app">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div style={{ backgroundImage: `url(${MyBlog})`}}>
-                    <div className="shadow-lg shadow-gray-300 group container flex justify-center items-center text-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-white tracking-wider">
-                                My Blog
-                            </span>
-                            <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">App</button>
-                                </a>
-                                <a href="https://github.com/forrestmorrison/my-blog">
-                                    <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-white text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">Code</button>
-                                </a>
-                            </div>
-                        </div>
+                <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">
+                    <img src={MyBlog} alt="" className="w-1/2 mt-8"/>
+                    <div className="pt-8 mb-4 text-center">
+                        <a href="/">
+                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">App</button>
+                        </a>
+                        <a href="https://github.com/forrestmorrison/my-blog">
+                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
+                        </a>
                     </div>
                 </div>
             </div>
