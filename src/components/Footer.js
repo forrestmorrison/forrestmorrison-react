@@ -1,5 +1,6 @@
 import ForrestName from "../assets/forrest-name-white.png"
-import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
                 </li>
                 <li className="hover:scale-110 duration-500">
                     <a className="text-white" href="https://www.twitter.com/4restmorrison">
-                        <FaTwitter size={30}/>
+                        <FaXTwitter size={30}/>
                     </a>
                 </li>
                 <li className="hover:scale-110 duration-500">

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Logo from "../assets/4rest-logo-color.png"
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
 import { Link } from "react-scroll"
 
 const Navbar = () => {
@@ -98,7 +99,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
             <a className="flex justify-between items-center w-full text-white" href="https://www.twitter.com/4restmorrison">
-              Twitter <FaTwitter size={30}/>
+              X <FaXTwitter size={30}/>
             </a>
           </li>
           <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
