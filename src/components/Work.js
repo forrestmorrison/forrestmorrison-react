@@ -13,7 +13,7 @@ const Work = () => {
                 <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">         
                     <img src={BitcoinBudget} alt="" className="w-11/12 mt-12"/>
                     <div className="pt-8 mb-4 text-center">
-                        <a href="https://bitcoin-budget-c75dd27ec5a4.herokuapp.com/">
+                        <a href="https://www.bitcoinbudget.app">
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">App</button>
                         </a>
                         <a href="https://github.com/forrestmorrison/bitcoin-budget">
