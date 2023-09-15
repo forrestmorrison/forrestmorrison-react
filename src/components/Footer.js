@@ -22,7 +22,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li className="hover:scale-110 duration-500">
-                    <a className="text-white" href="https://www.twitter.com/4restmorrison">
+                    <a className="text-white" href="https://www.x.com/4restmorrison">
                         <FaXTwitter size={30}/>
                     </a>
                 </li>
