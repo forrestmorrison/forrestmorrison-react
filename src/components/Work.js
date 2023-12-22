@@ -26,7 +26,13 @@ const Work = () => {
                 
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
-                <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">         
+                <motion.div 
+                    className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    viewport={{ once: true }}
+                >         
                     <img src={BitcoinBudget} alt="" className="w-11/12 mt-12"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="https://www.bitcoinbudget.app">
@@ -36,8 +42,14 @@ const Work = () => {
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
                         </a>
                     </div>
-                </div>
-                <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">
+                </motion.div>
+                <motion.div 
+                    className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
+                >
                     <img src={MyBlog} alt="" className="w-1/2 mt-8"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="/">
@@ -47,11 +59,17 @@ const Work = () => {
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
                         </a>
                     </div>
-                </div>
+                </motion.div>
             </div>
-            <div className="pb-8 px-2">
+            <motion.div 
+                className="pb-8 px-2"
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0}}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+            >
                 <p className="my-4 py-4"><a href="https://www.linkedin.com/in/forrestmorrison" className="font-bold text-[#119f05] hover:text-[#5dbb10] hover:scale-110 duration-500">CLICK HERE</a> to view my full resume on LinkedIn</p>
-            </div>
+            </motion.div>
         </div>
     </div>
   )
