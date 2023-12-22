@@ -34,9 +34,9 @@ const About = () => {
                     viewport={{ once: true }}
                 >
                     <p>
-                        I specialize in building React applications & connecting them to Amazon Web Services & Google Cloud Console using Express JS & MySQL.
+                        I specialize in building React applications that connect to Amazon Web Services or Google Cloud Console using Express JS & MySQL.
                         I'm proficient in HTML, CSS, Javascript & am currently learning Typescript.
-                        I'm most passionate about improving my UI/UX skills & mastering fun technologies like Framer Motion, Material UI & Tailwind CSS, but I continue to gain interest in learning popular back-end technologies, as well.
+                        I'm most passionate about improving my UI/UX skills & mastering fun front-end technologies (such as Tailwind CSS, Material UI & Framer Motion), but I continue to gain interest in learning popular back-end technologies.
                     </p>
                 </motion.div>
             </div>

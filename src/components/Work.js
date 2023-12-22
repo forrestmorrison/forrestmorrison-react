@@ -1,13 +1,29 @@
 import BitcoinBudget from "../assets/bitcoin-budget-logo.png"
 import MyBlog from "../assets/my-blog-logo.png"
+import { motion } from "framer-motion"
 
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen mb-20">
         <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
             <div className="pb-8 px-2 text-right">
-                <p className="text-4xl font-bold inline border-b-4 border-[#119f05]">Work</p>
-                <p className="py-4">These are the apps I have built:</p>
+                <motion.div 
+                        initial={{ opacity: 0, y: -100 }}
+                        whileInView={{ opacity: 1, y: 0}}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: true }}
+                >
+                    <p className="text-4xl font-bold inline border-b-4 border-[#119f05]">Work</p>
+                </motion.div>
+                <motion.div 
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0}}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
+                >
+                    <p className="py-4">These are the apps I have built:</p>
+                </motion.div>
+                
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
                 <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">         
