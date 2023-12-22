@@ -3,6 +3,7 @@ import Logo from "../assets/4rest-logo-color.png"
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa"
 import { FaXTwitter } from "react-icons/fa6"
 import { Link } from "react-scroll"
+import { motion } from "framer-motion"
 
 const Navbar = () => {
 
@@ -87,26 +88,55 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-white" href="https://www.github.com/forrestmorrison">
-              Github <FaGithub size={30}/>
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison">
-              LinkedIn <FaLinkedin size={30}/>
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-white" href="https://www.x.com/4restmorrison">
-              X <FaXTwitter size={30}/>
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-            <a className="flex justify-between items-center w-full text-white" href="https://www.youtube.com/@4restmorrison">
-              YouTube <FaYoutube size={30}/>
-            </a>
-          </li>
+          <motion.div
+            initial={{ x: -100 }}
+            animate={{ x: 0}}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.github.com/forrestmorrison">
+                Github <FaGithub size={30}/>
+              </a>
+            </li>
+          </motion.div>
+          <motion.div
+            initial={{ x: -100 }}
+            animate={{ x: 0}}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison">
+                LinkedIn <FaLinkedin size={30}/>
+              </a>
+            </li>
+          </motion.div>
+          <motion.div
+            initial={{ x: -100 }}
+            animate={{ x: 0}}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
+          >
+            <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.x.com/4restmorrison">
+                X <FaXTwitter size={30}/>
+              </a>
+            </li>
+          </motion.div>
+          <motion.div
+            initial={{ x: -100 }}
+            animate={{ x: 0}}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.youtube.com/@4restmorrison">
+                YouTube <FaYoutube size={30}/>
+              </a>
+            </li>
+          </motion.div>
+          
         </ul>
       </div>
     </div>
