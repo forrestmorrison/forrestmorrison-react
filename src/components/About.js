@@ -10,6 +10,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 100 }}
                 transition={{ duration: 0.5 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
             >
                 <div className="sm:text-right pb-8 pl-4">
                     <p className="text-4xl font-bold inline border-b-4 border-[#119f05]">About</p>
@@ -22,6 +23,7 @@ const About = () => {
                     initial={{ opacity: 0, y: 100 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                     whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
                 >
                     <p>I'm a Web Developer in Austin, TX.</p>
                 </motion.div>
@@ -29,6 +31,7 @@ const About = () => {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                     whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                 >
                     <p>
                         I specialize in building React applications & connecting them to Amazon Web Services & Google Cloud Console using Express JS & MySQL.
