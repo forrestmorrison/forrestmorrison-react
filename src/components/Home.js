@@ -10,9 +10,9 @@ const Home = () => {
         {/* Container */}
         <motion.div 
             className="max-w-[900px] mx-auto p-8 flex flex-col justify-center h-full"
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 0.5 }}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1 }}
         >
             <p className="pb-2">Welcome to the official website of</p>
             <img src={ForrestName} alt="Forrest name" />
