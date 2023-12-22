@@ -1,13 +1,19 @@
 import { HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "react-scroll"
 import ForrestName from "../assets/forrest-name-green.png"
+import { motion } from "framer-motion"
 
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
         
         {/* Container */}
-        <div className="max-w-[900px] mx-auto p-8 flex flex-col justify-center h-full">
+        <motion.div 
+            className="max-w-[900px] mx-auto p-8 flex flex-col justify-center h-full"
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.5 }}
+        >
             <p className="pb-2">Welcome to the official website of</p>
             <img src={ForrestName} alt="Forrest name" />
             <h2 className="py-4 text-2xl sm:text-4xl">Full-Stack Developer</h2>
@@ -21,7 +27,7 @@ const Home = () => {
                     </button>
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
     </div>
   )
