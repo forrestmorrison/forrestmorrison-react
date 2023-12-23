@@ -12,41 +12,75 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white shadow-sm z-10'>
-      <div>
+      <motion.div
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1}}
+      >
         <Link to="home" smooth={true} duration={500}>
           <a href="/">
             <img src={Logo} alt='logo' style={{ height: '40px' }}/>
           </a>
         </Link>
-      </div>
+      </motion.div>
       {/* menu */}
 
       <ul className="hidden md:flex">
-        <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="skills" smooth={true} offset={-70} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="work" smooth={true} offset={-70} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className="text-[#119f05] hover:text-[#5dbb10]">
-          <Link to="contact" smooth={true} offset={-50} duration={700}>
-            Contact
-          </Link>
-        </li>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          <li className="text-[#119f05] hover:text-[#5dbb10] duration-500">
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+        </motion.div>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
+        >
+          <li className="text-[#119f05] hover:text-[#5dbb10] duration-500">
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+        </motion.div>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.7 }}
+        >
+          <li className="text-[#119f05] hover:text-[#5dbb10] duration-500">
+            <Link to="skills" smooth={true} offset={-70} duration={500}>
+              Skills
+            </Link>
+          </li>
+        </motion.div>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+        >
+          <li className="text-[#119f05] hover:text-[#5dbb10] duration-500">
+            <Link to="work" smooth={true} offset={-70} duration={500}>
+              Work
+            </Link>
+          </li>
+        </motion.div>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.9 }}
+        >
+          <li className="text-[#119f05] hover:text-[#5dbb10] duration-500">
+            <Link to="contact" smooth={true} offset={-50} duration={700}>
+              Contact
+            </Link>
+          </li>
+        </motion.div>
       </ul>
 
       {/* hamburger */}
