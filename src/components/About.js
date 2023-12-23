@@ -28,9 +28,9 @@ const About = () => {
                     <p>I'm a Web Developer in Austin, TX.</p>
                 </motion.div>
                 <motion.div
-                    initial={{ opacity: 0, x: 100 }}
+                    initial={{ opacity: 0, y: 100 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
                     <p>
