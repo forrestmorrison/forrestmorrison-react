@@ -29,8 +29,8 @@ const Skills = () => {
         <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
             <div className="px-2">
                 <motion.div 
-                    initial={{ opacity: 0, y: -100 }}
-                    whileInView={{ opacity: 1, y: 0}}
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0}}
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
                 >
@@ -39,7 +39,7 @@ const Skills = () => {
                 <motion.div 
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0}}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 1, delay: 0.25 }}
                     viewport={{ once: true }}
                 >
                     <p className="py-4">These are the technologies I've worked with:</p>
