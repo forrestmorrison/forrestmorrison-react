@@ -47,7 +47,7 @@ const Contact = () => {
               <textarea className="border-2 border-[#119f05] my-2 p-2 w-full" name="message" placeholder="Message" rows="10"></textarea>
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0}}
               transition={{ duration: 1 }}
               viewport={{ once: true }}
