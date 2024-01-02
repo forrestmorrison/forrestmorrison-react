@@ -129,7 +129,7 @@ const Navbar = () => {
             viewport={{ once: true }}
           >
             <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-              <a className="flex justify-between items-center w-full text-white" href="https://www.github.com/forrestmorrison">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.github.com/forrestmorrison" target="_blank" rel="noreferrer">
                 Github <FaGithub size={30}/>
               </a>
             </li>
@@ -141,7 +141,7 @@ const Navbar = () => {
             viewport={{ once: true }}
           >
             <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-              <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.linkedin.com/in/forrestmorrison" target="_blank" rel="noreferrer">
                 LinkedIn <FaLinkedin size={30}/>
               </a>
             </li>
@@ -153,7 +153,7 @@ const Navbar = () => {
             viewport={{ once: true }}
           >
             <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-              <a className="flex justify-between items-center w-full text-white" href="https://www.x.com/4restmorrison">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.x.com/4restmorrison" target="_blank" rel="noreferrer">
                 X <FaXTwitter size={30}/>
               </a>
             </li>
@@ -165,7 +165,7 @@ const Navbar = () => {
             viewport={{ once: true }}
           >
             <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#119f05] hover:bg-[#5dbb10]">
-              <a className="flex justify-between items-center w-full text-white" href="https://www.youtube.com/@4restmorrison">
+              <a className="flex justify-between items-center w-full text-white" href="https://www.youtube.com/@4restmorrison" target="_blank" rel="noreferrer">
                 YouTube <FaYoutube size={30}/>
               </a>
             </li>
