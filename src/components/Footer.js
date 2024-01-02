@@ -33,7 +33,7 @@ const Footer = () => {
                     viewport={{ once: true }}
                 >
                     <li className="hover:scale-110 duration-500">
-                        <a className="text-white" href="https://www.github.com/forrestmorrison">
+                        <a className="text-white" href="https://www.github.com/forrestmorrison" target="_blank" rel="noreferrer">
                             <FaGithub size={30}/>
                         </a>
                     </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                     viewport={{ once: true }}
                 >
                     <li className="hover:scale-110 duration-500">
-                        <a className="text-white" href="https://www.linkedin.com/in/forrestmorrison">
+                        <a className="text-white" href="https://www.linkedin.com/in/forrestmorrison" target="_blank" rel="noreferrer">
                             <FaLinkedin size={30}/>
                         </a>
                     </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                     viewport={{ once: true }}
                 >
                     <li className="hover:scale-110 duration-500">
-                        <a className="text-white" href="https://www.x.com/4restmorrison">
+                        <a className="text-white" href="https://www.x.com/4restmorrison" target="_blank" rel="noreferrer">
                             <FaXTwitter size={30}/>
                         </a>
                     </li>
@@ -69,7 +69,7 @@ const Footer = () => {
                     viewport={{ once: true }}
                 >
                     <li className="hover:scale-110 duration-500">
-                        <a className="text-white" href="https://www.youtube.com/@4restmorrison">
+                        <a className="text-white" href="https://www.youtube.com/@4restmorrison" target="_blank" rel="noreferrer">
                             <FaYoutube size={30}/>
                         </a>
                     </li>
