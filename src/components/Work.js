@@ -1,5 +1,6 @@
 import BitcoinBudget from "../assets/bitcoin-budget-logo.png"
-import MyBlog from "../assets/my-blog-logo.png"
+import TheReliefTeam from "../assets/the-relief-team.png"
+import { motion } from "framer-motion"
 
 const Work = () => {
   return (
@@ -41,9 +42,9 @@ const Work = () => {
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
                         </a>
                     </div>
-                </div>
-                <div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">
-                    <img src={MyBlog} alt="" className="w-1/2 mt-8"/>
+                </motion.div>
+                <motion.div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">
+                    <img src={TheReliefTeam} alt="" className="w-2/3 mt-8"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="https://forrestmorrison.github.io/the-relief-team">
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Site</button>
