@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.96b63231.css",
-    "main.js": "/static/js/main.4c64afca.js",
+    "main.css": "/static/css/main.b662eadf.css",
+    "main.js": "/static/js/main.a9666556.js",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/forrest-name-green.png": "/static/media/forrest-name-green.82637a06eef74c09ba7b.png",
     "static/media/forrest-name-white.png": "/static/media/forrest-name-white.12725aa4312e9467de9b.png",
+    "static/media/the-relief-team.png": "/static/media/the-relief-team.e42f5ecf39ee8cfa17db.png",
     "static/media/googlecloud.png": "/static/media/googlecloud.fd4e30e7824c2ad76ef2.png",
     "static/media/4rest-logo-color.png": "/static/media/4rest-logo-color.f559f63dc2aaf19e53ce.png",
     "static/media/mysql.png": "/static/media/mysql.89049adf303f2e340887.png",
@@ -14,14 +15,13 @@
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/bitcoin-budget-logo.png": "/static/media/bitcoin-budget-logo.0bba4bd9776b9422cc38.png",
-    "static/media/my-blog-logo.png": "/static/media/my-blog-logo.387befea927ea2eb8067.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.96b63231.css.map": "/static/css/main.96b63231.css.map",
-    "main.4c64afca.js.map": "/static/js/main.4c64afca.js.map"
+    "main.b662eadf.css.map": "/static/css/main.b662eadf.css.map",
+    "main.a9666556.js.map": "/static/js/main.a9666556.js.map"
   },
   "entrypoints": [
-    "static/css/main.96b63231.css",
-    "static/js/main.4c64afca.js"
+    "static/css/main.b662eadf.css",
+    "static/js/main.a9666556.js"
   ]
 }
