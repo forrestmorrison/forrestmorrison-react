@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b662eadf.css",
-    "main.js": "/static/js/main.a9666556.js",
+    "main.js": "/static/js/main.6877e4d5.js",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/forrest-name-green.png": "/static/media/forrest-name-green.82637a06eef74c09ba7b.png",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b662eadf.css.map": "/static/css/main.b662eadf.css.map",
-    "main.a9666556.js.map": "/static/js/main.a9666556.js.map"
+    "main.6877e4d5.js.map": "/static/js/main.6877e4d5.js.map"
   },
   "entrypoints": [
     "static/css/main.b662eadf.css",
-    "static/js/main.a9666556.js"
+    "static/js/main.6877e4d5.js"
   ]
 }
