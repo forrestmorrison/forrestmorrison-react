@@ -34,9 +34,9 @@ const About = () => {
                     viewport={{ once: true }}
                 >
                     <p>
-                        I specialize in building React applications that connect to Amazon Web Services or Google Cloud Console using Express JS & MySQL.
-                        I'm proficient in HTML, CSS, Javascript & am currently learning Typescript.
-                        I'm most passionate about improving my UI/UX skills & mastering fun front-end technologies (such as Tailwind CSS, Material UI & Framer Motion), but I continue to gain interest in learning popular back-end technologies.
+                        I am a software engineer whose primary focus is full-stack web development. 
+                        I am proficient in Javascript, React, HTML, CSS, Express JS, & MySQL. I have some experience with/am currently learning Typescript & Next.JS (and Python, eventually...). 
+                        I spend my Saturday afternoons with other coders, solving LeetCode problems, at the Austin Algorithms MeetUp.
                     </p>
                 </motion.div>
             </div>
