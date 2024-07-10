@@ -28,13 +28,13 @@ const Work = () => {
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
                 <motion.div 
-                    className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto"
+                    className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                     viewport={{ once: true }}
                 >         
-                    <img src={BitcoinBudget} alt="" className="w-11/12 mt-12"/>
+                    <img src={BitcoinBudget} alt="" className="w-10/12 mt-12"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="https://www.bitcoinbudget.app">
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">App</button>
@@ -44,8 +44,8 @@ const Work = () => {
                         </a>
                     </div>
                 </motion.div>
-                <motion.div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-between items-center text-center mx-auto">
-                    <img src={F} alt="" className="w-2/3 mt-8"/>
+                <motion.div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto">
+                    <img src={F} alt="" className="w-1/12 mt-10"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="x.com/4restmorrison">
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Site</button>
