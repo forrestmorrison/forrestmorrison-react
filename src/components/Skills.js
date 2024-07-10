@@ -47,7 +47,7 @@ const Skills = () => {
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -58,7 +58,7 @@ const Skills = () => {
                     <p className="mb-4">HTML</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -69,7 +69,7 @@ const Skills = () => {
                     <p className="mb-4">CSS</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -80,7 +80,7 @@ const Skills = () => {
                     <p className="mb-4">Javascript</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -91,7 +91,7 @@ const Skills = () => {
                     <p className="mb-4">React</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -102,7 +102,7 @@ const Skills = () => {
                     <p className="mb-4">Git</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -113,7 +113,7 @@ const Skills = () => {
                     <p className="mb-4">Bootstrap</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -124,7 +124,7 @@ const Skills = () => {
                     <p className="mb-4">Tailwind CSS</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -135,7 +135,7 @@ const Skills = () => {
                     <p className="mb-4">Material UI</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -146,7 +146,7 @@ const Skills = () => {
                     <p className="mb-4">Node JS</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -157,7 +157,7 @@ const Skills = () => {
                     <p className="mb-4">MySQL</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
@@ -168,7 +168,7 @@ const Skills = () => {
                     <p className="mb-4">Google Cloud</p>
                 </motion.div>
                 <motion.div 
-                    className="bg-gray-100 shadow-md shadow-gray-300 hover:scale-105 duration-500"
+                    className="bg-white-100 border-2 border-[#119f05] shadow-md shadow-gray-300 hover:scale-105 duration-500"
                     variants={fadeInVariants}
                     initial="initial"
                     whileInView="animate"
