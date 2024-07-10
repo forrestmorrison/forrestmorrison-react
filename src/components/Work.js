@@ -1,5 +1,4 @@
 import BitcoinBudget from "../assets/bitcoin-budget-logo.png"
-import TheReliefTeam from "../assets/the-relief-team.png"
 import F from "../assets/f-logo.png"
 import { motion } from "framer-motion"
 
@@ -28,7 +27,7 @@ const Work = () => {
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
                 <motion.div 
-                    className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto"
+                    className="bg-white-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto border-2 border-[#119f05]"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 2 }}
@@ -44,11 +43,11 @@ const Work = () => {
                         </a>
                     </div>
                 </motion.div>
-                <motion.div className="bg-gray-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto">
+                <motion.div className="bg-white-100 shadow-lg shadow-gray-300 container flex flex-col justify-center items-center text-center my-auto border-2 border-[#119f05]">
                     <img src={F} alt="" className="w-1/12 mt-10"/>
                     <div className="pt-8 mb-4 text-center">
                         <a href="x.com/4restmorrison">
-                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Site</button>
+                            <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">App</button>
                         </a>
                         <a href="https://github.com/forrestmorrison/f">
                             <button className="text-center px-4 py-3 m-2 font-bold text-lg bg-[#119f05] text-white hover:bg-[#5dbb10] hover:scale-110 duration-500">Code</button>
