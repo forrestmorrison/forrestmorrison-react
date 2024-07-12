@@ -34,9 +34,10 @@ const About = () => {
                     viewport={{ once: true }}
                 >
                     <p>
-                        I am a software engineer whose primary focus is full-stack web development. 
-                        I am proficient in Javascript, React, HTML, CSS, Express JS, & MySQL. I have some experience with/am currently learning Typescript & Next.JS (and Python, eventually...). 
-                        I spend my Saturday afternoons with other coders, solving LeetCode problems, at the Austin Algorithms MeetUp.
+                        I'm a software engineer whose primary focus is full-stack web development.
+                        I'm also very interested in data structures & algorithms.
+                        I spend my Saturday afternoons at the Austin Algorithms MeetUp, working on LeetCode problems with other coders.
+                        I look forward to the challenge of applying my fundamental coding knowledge to whatever tech stack your company uses to get the job done.
                     </p>
                 </motion.div>
             </div>
