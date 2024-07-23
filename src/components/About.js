@@ -34,9 +34,8 @@ const About = () => {
                     viewport={{ once: true }}
                 >
                     <p>
-                        I'm a software engineer whose primary focus is full-stack web development.
-                        I'm also very interested in data structures & algorithms.
-                        I spend my Saturday afternoons at the Austin Algorithms MeetUp, working on LeetCode problems with other coders.
+                        I'm a software engineer whose primary focus is full-stack web development, data structures and algorithms.
+                        I spend my Saturday afternoons at the Austin Algorithms MeetUp, solving LeetCode problems, with a diverse group of coders from FAANG employees to high school students.
                         I look forward to the challenge of applying my fundamental coding knowledge to whatever tech stack your company uses to get the job done.
                     </p>
                 </motion.div>
